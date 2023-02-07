@@ -1,5 +1,5 @@
 {
-    "name": "jaravel/laravel-filesystem-oss",
+    "name": "focite/laravel-filesystem-oss",
     "description": "aliyun oss filesystem storage for laravel 5+",
     "license": "MIT",
     "require": {
@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jaravel\\Flysystem\\OSS\\": "src/"
+            "Focite\\Flysystem\\OSS\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jaravel\\Flysystem\\OSS\\AliOssServiceProvider"
+                "Focite\\Flysystem\\OSS\\AliOssServiceProvider"
             ]
         }
     },
